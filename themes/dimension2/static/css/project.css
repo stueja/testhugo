@@ -1,0 +1,44 @@
+
+/* todo:
+ * bei icomoon zusammen mit den u. a. symbolen auch den font "dosis-regular" mit einbinden
+ * AUFPASSEN, DASS EIN LEERZEICHEN MIT DABEI IST u+0020
+ */
+@font-face {
+  font-family: 'stuehler';
+  src:  url('/f/stuehler.eot');
+  src:  url('/f/stuehler.eot#iefix') format('embedded-opentype'),
+    url('/f/stuehler.ttf') format('truetype'),
+    url('/f/stuehler.woff') format('woff'),
+    url('/f/stuehler.svg#stuehler') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="stuehler-"], [class*=" stuehler-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'stuehler' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stuehler-bulb:before {
+  content: "\e901";
+}
+.stuehler-compass:before {
+  content: "\e902";
+}
+.stuehler-directions:before {
+  content: "\e903";
+}
+.stuehler-ue:before {
+  content: "\e900";
+}
+
