@@ -38,7 +38,48 @@
 .stuehler-directions:before {
   content: "\e903";
 }
-.stuehler-ue:before {
+.stuehler-stuehler-stuehler .path1:before {
+  content: "\e905";
+  color: rgb(39, 205, 165);
+}
+.stuehler-stuehler-stuehler .path2:before {
+  content: "\e906";
+  margin-left: -3.33984375em;
+  color: rgb(255, 255, 255);
+}
+.stuehler-stuehler-stuehler .path3:before {
+  content: "\e907";
+  margin-left: -3.33984375em;
+  color: rgb(255, 255, 255);
+}
+.stuehler-stuehler-stuehler .path4:before {
+  content: "\e908";
+  margin-left: -3.33984375em;
+  color: rgb(255, 255, 255);
+}
+.stuehler-stuehler-stuehler .path5:before {
+  content: "\e909";
+  margin-left: -3.33984375em;
+  color: rgb(255, 255, 255);
+}
+.stuehler-stuehler-stuehler .path6:before {
+  content: "\e90a";
+  margin-left: -3.33984375em;
+  color: rgb(255, 255, 255);
+}
+.stuehler-stuehler-stuehler .path7:before {
+  content: "\e90b";
+  margin-left: -3.33984375em;
+  color: rgb(255, 255, 255);
+}
+.stuehler-ue-fill:before {
+  content: "\e904";
+}
+.stuehler-ue-stroke:before {
   content: "\e900";
 }
+
+
+
+
 
