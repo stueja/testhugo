@@ -40,6 +40,18 @@
             <nav>
               <ul>
                 {{/* range .Data.Pages.ByWeight */}}
+                {{ range where .Pages "Section" "about" }}
+                  <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
+                {{ end }}
+              </ul>
+            </nav>                
+            </header>
+
+
+            <header id="header">
+            <nav>
+              <ul>
+                {{/* range .Data.Pages.ByWeight */}}
                 {{ range where .Pages "Section" "admin" }}
                   <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
                 {{ end }}
